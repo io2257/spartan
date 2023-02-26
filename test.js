@@ -1,5 +1,3 @@
-<!doctype html>
-<html>
 <iframe id="iframe"></iframe>
 <img id="img">
 <script>
@@ -9,4 +7,3 @@ iframe.onload = () => {
     img.src = `https://uqinixr.request.dreamhack.games/${iframe.contentWindow.frames.length}`;
 };
 </script>
-</html>
